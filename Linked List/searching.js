@@ -29,3 +29,6 @@ function searchFun(head, val){
 }
 const finalR = searchFun(head, 7);
 finalR ? console.log("Value is found in linkedlist.") : console.log("Value is not found.");
+
+//Time complexity: O(n)
+//Space complexity: O(1)
