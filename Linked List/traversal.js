@@ -18,7 +18,6 @@ const third = new Node(8);
 head.next = first;
 first.next = second;
 second.next = third;
-third.next = null;
 
 //traversing created linkedlist..
 function traverseL(head) {
