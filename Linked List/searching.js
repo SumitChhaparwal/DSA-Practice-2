@@ -18,12 +18,12 @@ first.next = second;
 
 //searching val in linkedlist..
 function searchFun(head, val){
-  let pointer = head;
-  while(pointer !== null){
-    if(pointer.data === val){
+  let currentNode = head;
+  while(currentNode !== null){
+    if(currentNode.data === val){
       return true;
     } 
-    pointer = pointer.next;
+    currentNode = currentNode.next;
   }
   return false;
 }

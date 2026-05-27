@@ -21,10 +21,10 @@ second.next = third;
 
 //traversing created linkedlist..
 function traverseL(head) {
-  let nextPointer = head;
-  while(nextPointer !== null){
-    console.log(nextPointer.data);
-    nextPointer = nextPointer.next;
+  let nextNode = head;
+  while(nextNode !== null){
+    console.log(nextNode.data);
+    nextNode = nextNode.next;
   }
 }
 traverseL(head);

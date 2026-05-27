@@ -60,10 +60,10 @@ insertAtEnd(15);
 
 //displaying updates
 function displayU(head) {
-  let pointer = head;
-  while (pointer !== null) {
-    console.log(pointer.data);
-    pointer = pointer.next;
+  let currentNode = head;
+  while (currentNode !== null) {
+    console.log(currentNode.data);
+    currentNode = currentNode.next;
   }
 }
 displayU(headNode);
