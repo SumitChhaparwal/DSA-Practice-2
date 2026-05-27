@@ -9,3 +9,6 @@ function sumOfNum(n) {
 
 let sum = sumOfNum(5);
 console.log("Sum of numbers:",sum);
+
+//Time complexity: O(n)
+//Space complexity: O(n)
