@@ -19,6 +19,8 @@ push(6);
 push(1);
 push(6);
 push(11);
+//Time Complexity: O(1)
+//Space Complexity: O(n)
 
 //function to remove a element in stacks
 let x =0;
@@ -34,6 +36,8 @@ function pop() {
 pop();
 pop();
 pop();
+//Time Complexity: O(1)
+//Space Complexity: O(n)
 
 function traverse() {
   for (let i = top; i >= 0; i--) {
