@@ -8,7 +8,6 @@ function push(data){
   top++;
   if(top > length){
     console.log(`Data cannot be add due to stack overflow..`);
-    console.log("only add by replacing existing value..");
     top--;
     return;
   }
@@ -18,6 +17,8 @@ push(2);
 push(4);
 push(6);
 push(1);
+push(6);
+push(11);
 
 function traverse(){
   for(let i=top; i>=0; i--){
