@@ -62,6 +62,9 @@ function nextGreaterEle(data) {
 }
 nextGreaterEle([2, 3, 1, 5, 6]);
 
+//Time Complexity: O(n)
+//Space Complexity: O(n)
+
 function displayFun() {
   for (let i = add.top; i >= 0; i--) {
     console.log(add.arr[i]);
