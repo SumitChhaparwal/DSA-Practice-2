@@ -1,4 +1,4 @@
-//Implementing Inorder traversal in binary tree..
+//Implementing Inorder traversal in binary tree (DFS)..
 
 class TreeNode{
   constructor(data){

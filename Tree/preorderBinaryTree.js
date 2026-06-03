@@ -1,4 +1,4 @@
-//preorder traversal in binary tree 
+//preorder traversal in binary tree (DFS) 
 
 class Tree{
   constructor(data){
